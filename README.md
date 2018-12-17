@@ -3,22 +3,12 @@ Face detection and facial recognition along with recognized persons information 
 
 General Languages and versions
 
-    •	Python version: 2.7.14
-    •	Django version: 1.11.9
-    •	OpenCV version: 3.4.0
-    •	Sklearn version: 0.19.1
-    •	Mysql Database
-
-Change mysql setting
-
-       go to settings.py under faceRecog folder.
-       change database configuration under DATABASES object.
-
+    •	Python version: 3.6.5
+    •	Django version: latest
+    •	OpenCV version: latest
 
 
 Run -
 
-    python manage.py runserver --nothreading –noreload
+    python manage.py runserver 
 
-Demo Video
-https://www.youtube.com/watch?v=p70srlZvyvQ&feature=youtu.be
