@@ -1,7 +1,6 @@
 from django.shortcuts import render, redirect
 import cv2
 import numpy as np
-import imutils
 from PIL import Image
 
 from time import time
