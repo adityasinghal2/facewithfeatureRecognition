@@ -3,7 +3,9 @@ Face detection and facial recognition along with recognized persons information 
 
 
 Setup:
+
 run:
+
 pip install -r requirements.txt # to install all the packages
 
 
@@ -11,15 +13,20 @@ pip install -r requirements.txt # to install all the packages
 General Languages and versions
 
 Django                2.1.4
+
 opencv-contrib-python 3.4.4.19
+
 Pillow                5.3.0
 
 git clone https://github.com/adityasinghal2/facewithfeatureRecognition.git
+
 cd facewithfeatureRecognition
 
 Run -
     python manage.py migrate # to migrate madels
+    
     python manage.py runserver # to start the server
+    
 Open http://localhost:8000/ in browser
     
 Features:
